@@ -130,7 +130,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 84
+  m_Constraints: 80
   m_CollisionDetection: 0
 --- !u!95 &2720182476059702528
 Animator:
@@ -163,7 +163,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50a5ecac94dc3f946bc4db7dbd3fa2c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  turnSpeed: 20
+  player: {fileID: 0}
+  speedRotation: 120
+  speed: 6
+  jumpSpeed: 700
 --- !u!136 &472728139573520644
 CapsuleCollider:
   m_ObjectHideFlags: 0
